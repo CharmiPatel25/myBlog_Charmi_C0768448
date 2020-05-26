@@ -5,5 +5,14 @@
     text-align: center;
     background: white;
     color: purple;
-    font-family:'Times New Roman';
+    font-family: 'Times New Roman';
+    padding-bottom: 0px;
+}
+h2 {
+    margin-bottom: 0px;   
+}
+h1 {
+    text-align: center;
+    font-size: small;
+    color: purple;
 }
