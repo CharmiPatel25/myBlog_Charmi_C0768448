@@ -50,3 +50,44 @@ header {
 .sec-intro img {
     width: 100%;
 }
+/*Intro*/
+.sec-intro {
+    padding-top: 0;
+}
+
+    .sec-intro .row {
+        max-width: 100%;
+    }
+
+        .sec-intro .row > img {
+            float: left;
+            width: 50%;
+            height: 480px;
+            vertical-align: top;
+        }
+
+@media screen and (max-width: 500px) {
+    .sec-intro .row > img {
+        width: 100%
+    }
+}
+
+.sec-intro .col-4 {
+    margin-right: -3.5px;
+    width: 25%;
+}
+
+    .sec-intro .col-4 img {
+        height: 200px;
+    }
+
+@media screen and (max-width: 930px) {
+    .sec-intro .col-4 {
+        width: 50%;
+    }
+
+        .sec-intro .col-4:nth-child(3),
+        .sec-intro .col-4:last-child {
+            margin-top: -3px;
+        }
+}
