@@ -49,11 +49,21 @@ input {
     flex-wrap: wrap;
     justify-content: flex-end;
 }
+    .nav li:first-child a {
+        background: #54255D;
+    }
+    .nav a,
+    label {
+        text-align: center;
+        color: #fff;
+    }
+
 @media screen and (max-width: 500px) {
     label.fa {
         display: block;
     }
 }
+/*Intro*/
 @media screen and (max-width: 500px) {
     .sec-intro .col-4 {
         display: inline-block;
