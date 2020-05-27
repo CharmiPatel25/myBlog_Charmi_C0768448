@@ -2,22 +2,24 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" href="CSS/main.css">  
+    <link rel="stylesheet" type="text/css" href="CSS/main.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <div class="header">
-        <h2>Purple Panther</h2>
-    </div>
-    <h1>I Got 99 Problems, But Writing Code Ain’t One</h1>
-    <nav class="main-nav" id="main-nav">
-        <div style="height:80px;background: rgb(51,74,92);padding-top: 1px;"><h2 class="text-center" style="color:#fff; letter-spacing:2px;">MENU</h2></div>
-        <ul class="nav nav-pills nav-stacked">
-            <li class="active"><a href="#"><i class="fa fa-home fa-fw"></i>&nbsp; Home</a></li>
-            <li><a href="#about"><i class="fa fa-user fa-fw"></i>&nbsp; About</a></li>
-            <li><a href="#what-i-do"><i class="fa fa-signal fa-fw"></i>&nbsp; What I do</a></li>
-            <li><a href="#work"><i class="fa fa-briefcase fa-fw"></i>&nbsp; Recent Work</a></li>
-            <li><a href="#contact"><i class="fa fa-envelope-o fa-fw"></i>&nbsp; Contact</a></li>
-        </ul>
-    </nav>
+    <header id="nav" role="banner">
+        <nav role="navigation">
+            <i class="fa fa-gamepad"></i>
+            <input type="checkbox" id="nav-check" />
+            <ul class="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Games</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Contacts</a></li>
+                <li><a href="#" class="fa fa-search"></a></li>
+            </ul>
+            <label class="fa fa-bars" for="nav-check"></label>
+        </nav>
+    </header>
 </body>
 </html>
