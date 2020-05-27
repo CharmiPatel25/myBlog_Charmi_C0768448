@@ -1,3 +1,4 @@
+
 /*Typography*/
 html {
     font: 16px "Ubuntu", sans-serif;
@@ -9,12 +10,29 @@ body {
     height: 100%;
 }
 
+
 /*Navigation*/
 header {
     float: left;
     position: relative;
     width: 100%;
-    background: $mainColor;
+    background: #EBC3F3;
     box-shadow: 0px 1px 3px #333;
     z-index: 1;
+}
+.fa-gamepad {
+    display: block;
+    float: left;
+    margin-left: .25em;
+    font-size: 3em;
+    color: #fff;
+    cursor: pointer;
+}
+@media screen and (max-width: 500px) {
+    .fa-gamepad {
+        clear: both;
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+    }
 }
