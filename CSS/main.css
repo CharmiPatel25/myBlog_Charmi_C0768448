@@ -97,3 +97,20 @@ header {
     padding: 1em .75em;
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    transition: all .25s;
+}
+.col-4 {
+    display: inline-block;
+    width: 24.7%;
+    min-width: 230px;
+    vertical-align: top;
+}
+
