@@ -36,3 +36,17 @@ header {
         text-align: center;
     }
 }
+@media screen and (max-width: 500px) {
+    .sec-intro .col-4 {
+        display: inline-block;
+        width: 100%;
+    }
+        .sec-intro .col-4:nth-child(2),
+        .sec-intro .col-4:nth-child(3),
+        .sec-intro .col-4:last-child {
+            margin-top: -3px;
+        }
+}
+.sec-intro img {
+    width: 100%;
+}
