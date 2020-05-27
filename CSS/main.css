@@ -7,6 +7,9 @@
     color: purple;
     font-family: 'Times New Roman';
     padding-bottom: 0px;
+    background-image: url("../images/img1.jpg");
+    background-size: 750px 200px;
+    background-repeat: no-repeat;  
 }
 h2 {
     margin-bottom: 0px;   
@@ -16,3 +19,4 @@ h1 {
     font-size: small;
     color: purple;
 }
+
