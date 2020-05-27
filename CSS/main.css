@@ -91,3 +91,9 @@ header {
             margin-top: -3px;
         }
 }
+
+.nav a {
+    display: block;
+    padding: 1em .75em;
+}
+
