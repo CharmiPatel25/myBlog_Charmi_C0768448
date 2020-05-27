@@ -42,6 +42,13 @@ input {
     input:checked + .nav {
         display: flex;
     }
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
 @media screen and (max-width: 500px) {
     label.fa {
         display: block;
