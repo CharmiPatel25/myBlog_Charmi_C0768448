@@ -58,6 +58,16 @@ input {
         color: #fff;
     }
 
+    .nav a {
+        display: block;
+        padding: 1em .75em;
+    }
+
+label.fa {
+    display: none;
+    font-size: 2.5em;
+    cursor: pointer;
+}
 @media screen and (max-width: 500px) {
     label.fa {
         display: block;
