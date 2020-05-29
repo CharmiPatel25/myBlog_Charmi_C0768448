@@ -69,6 +69,17 @@ label.fa {
     cursor: pointer;
 }
 @media screen and (max-width: 500px) {
+    .nav {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+
+        .nav li {
+            text-align: center;
+        }
+}
+@media screen and (max-width: 500px) {
     label.fa {
         display: block;
     }
