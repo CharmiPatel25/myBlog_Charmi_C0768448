@@ -136,7 +136,8 @@ input {
     }
 
         .sec-intro .col-4:nth-child(3),
-        .sec-intro .col-4:last-child {
+        .sec-intro .col-4:last-child 
+        {
             margin-top: -3px;
         }
 }
@@ -161,6 +162,19 @@ a {
     width: 24.7%;
     min-width: 230px;
     vertical-align: top;
+}
+
+@media screen and (max-width: 500px) {
+    .sec-intro .col-4 {
+        display: inline-block;
+        width: 100%;
+    }
+
+        .sec-intro .col-4:nth-child(2),
+        .sec-intro .col-4:nth-child(3),
+        .sec-intro .col-4:last-child {
+            margin-top: -3px;
+        }
 }
 
 /*Posts*/
@@ -216,24 +230,12 @@ a {
         float: right;
     }
 
-    .post i {
-        cursor: pointer;
-    }
+    
         .post i:first-child {
             margin-right: .5em;
         }
 
-button {
-    margin-left: .5em;
-    padding: .5em 0;
-    width: 100px;
-    text-transform: uppercase;
-    background: #fff;
-    color: #54255D;
-    border: .1em solid;
-    outline: 0;
-    transition: color .25s;
-}
+
 
 
 @media screen and (max-width: 500px) {
@@ -243,3 +245,70 @@ button {
     }
 }
 
+section {
+    padding: 1em 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    transition: all .25s;
+}
+.col-2 {
+    display: inline-block;
+    width: 49%;
+    min-width: 300px;
+    vertical-align: top;
+}
+
+@media screen and (max-width: 500px) {
+    .col-2 {
+        display: block;
+        margin: auto;
+        width: 90%;
+    }
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    height: 100%;
+}
+.row,
+nav {
+    margin: auto;
+    width: 100%;
+    max-width: 60em; /*960px*/
+}
+.sec-posts h2 {
+    padding: 0 .25em;
+}
+
+/*footer*/
+.copy {
+    font-size: .8em;
+    font-style: italic;
+}
+.soc-media {
+    float: right;
+}
+
+    .soc-media li {
+        float: left;
+    }
+
+        .soc-media li:not(:last-child) {
+            margin-right: .5em;
+        }
+
+    .soc-media a {
+        display: block;
+        font-size: 130%;
+    
+    }
