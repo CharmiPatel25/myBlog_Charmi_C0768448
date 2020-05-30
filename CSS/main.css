@@ -163,3 +163,83 @@ a {
     vertical-align: top;
 }
 
+/*Posts*/
+.sec-posts {
+    margin-bottom: 1em;
+}
+
+    .sec-posts .row:first-child {
+        border-top: .1em dashed #aaa;
+    }
+
+@media screen and (max-width: 622px) {
+    .sec-posts .col-2 {
+        display: block;
+        margin: auto;
+        width: 80%;
+    }
+}
+.sec-posts h2 {
+    padding: 0 .25em;
+}
+
+@media screen and (max-width: 622px) {
+    h2 {
+        text-align: center;
+    }
+}
+
+.post {
+    padding: 0 .5em;
+}
+
+    .post img {
+        float: left;
+        margin-right: .5em;
+        width: 40%;
+        height: 143px;
+    }
+
+    .post h1 {
+        display: inline;
+        font-size: 100%;
+        cursor: pointer;
+    }
+
+    .post p {
+        padding-right: .25em;
+        font-size: 90%;
+        text-align: justify;
+    }
+
+    .post span {
+        float: right;
+    }
+
+    .post i {
+        cursor: pointer;
+    }
+        .post i:first-child {
+            margin-right: .5em;
+        }
+
+button {
+    margin-left: .5em;
+    padding: .5em 0;
+    width: 100px;
+    text-transform: uppercase;
+    background: #fff;
+    color: #54255D;
+    border: .1em solid;
+    outline: 0;
+    transition: color .25s;
+}
+
+
+@media screen and (max-width: 500px) {
+    button {
+        display: block;
+        margin: auto;
+    }
+}
+
