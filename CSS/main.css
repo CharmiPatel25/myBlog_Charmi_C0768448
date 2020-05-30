@@ -52,8 +52,8 @@ input {
     .nav li:first-child a {
         background: #54255D;
     }
-    .nav a,
-    label {
+    .nav a
+   {
         text-align: center;
         color: #fff;
     }
@@ -63,11 +63,11 @@ input {
         padding: 1em .75em;
     }
 
-label.fa {
+/*label.fa {
     display: none;
     font-size: 2.5em;
     cursor: pointer;
-}
+}*/
 @media screen and (max-width: 500px) {
     .nav {
         display: none;
@@ -79,11 +79,11 @@ label.fa {
             text-align: center;
         }
 }
-@media screen and (max-width: 500px) {
+/*/@media screen and (max-width: 500px) {
     label.fa {
         display: block;
     }
-}
+}*/
 /*Intro*/
 @media screen and (max-width: 500px) {
     .sec-intro .col-4 {
