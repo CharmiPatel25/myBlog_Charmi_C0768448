@@ -1,0 +1,22 @@
+
+/* styles for the mobile class */
+.mobile {
+    display: inline;
+}
+
+/* styles for the desktop class */
+.desktop {
+    display: none;
+}
+
+#container
+{
+  padding-top:300px;
+    text-align:center;
+}
+
+.videotbl {
+    border:2px;
+    margin-left:auto;
+    margin-right:auto;
+}
